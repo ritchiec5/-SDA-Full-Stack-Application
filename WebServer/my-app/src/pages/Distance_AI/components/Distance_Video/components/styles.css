@@ -1,0 +1,116 @@
+.logo {
+  float: left;
+  width: 79vw;
+  height: 75vh;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.705);
+  overflow-y: scroll;
+  padding-left: 5vw;
+  overflow-x: hidden;
+}
+
+.MainVideoContainer{
+  height: 70vh;
+  width: 74vw;
+  background-color: aqua;
+  z-index: 1;
+}
+
+.AI_Videos {
+  float: left;
+  width: auto;
+  height: 17vh;
+  margin-left: 0vw;
+  margin-top: 0vh;
+}
+
+.AI_Videos1 {
+  width: auto;
+  height: 50vh;
+  margin-left: 0vw;
+  margin-top: 0vh;
+}
+
+.AI_Video_Container{
+    background-color: transparent;
+    border:none;
+}
+
+.Video_Container{
+  float:left;
+  min-height: 20vh;
+  width: fit-content;
+  position: relative;
+  margin-left: 2vw;
+  margin-top: 1vh;
+}
+
+.Video_Tag{
+position: absolute;  
+overflow: hidden;
+top: 14.5vh;
+right: 5px;
+height: 2vh;
+min-width: 2vw;
+background: black;
+text-align: center;
+}
+
+.Video_Tag1{
+position: absolute;  
+overflow: hidden;
+top: 10px;
+left: 10px;
+height: 2vh;
+width: 4vw;
+  background: #515151;
+  text-align: center;
+}
+.Video_Tag2{
+position: absolute;  
+overflow: hidden;
+bottom: 10px;
+left: 10px;
+height: 2vh;
+width: 4vw;
+  background: #515151;
+    text-align: center;
+
+}
+.Video_Tag3{
+position: absolute;  
+overflow: hidden;
+bottom: 10px;
+right: 10px;
+height: 2vh;
+width: 4vw;
+background: #515151;
+text-align: center;
+}
+
+.Video_Tag_text{
+  color: #FFFFFF;
+  font-family: "Roboto";
+}
+
+.Modal1{
+  min-width: 50vw;
+  min-height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center 
+}
+
+.Modal2{
+  min-width: 50vw;
+  min-height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: right; 
+  margin-top: 3vh;
+}
+
+.Modal_button{
+  margin-top: 5vh;
+  margin-left: 20vw;
+}
